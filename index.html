@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link type="image/png" sizes="16x16" rel="icon" href="/icons8-microsoft-48.png">
+  <link rel="stylesheet" href="nav.css">
+  <title>Microsoft Services</title>
+</head>
+<body>
+  <main class="main flow">
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="#" class="logo">
+        <img src="/icons8-microsoft-48.png" alt="Microsoft Logo">
+      </a>
+
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+    <h1 class="main__heading">Pricing</h1>
+    <div class="main__cards cards">
+      <div class="cards__inner">
+        <div class="cards__card card">
+          <h2 class="card__heading">Basic</h2>
+          <p class="card__price">$3.99</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Access to standard Microsoft Tools</li>
+            <li>Email support</li>
+          </ul>
+          <a href="https://payment-form-beige.vercel.app/" class="card__cta cta">Get Started</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Pro</h2>
+          <p class="card__price">$9.99</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Access to advanced Micrsoft Tools</li>
+            <li>Priority Email support</li>
+            <li>Exclusive access to live Q&A sessions</li>
+            <li>Troubleshooting</li>
+          </ul>
+          <a href="https://payment-form-beige.vercel.app/" class="card__cta cta">Upgrade to Pro</a>
+        </div>
+  
+        <div class="cards__card card">
+          <h2 class="card__heading">Ultimate</h2>
+          <p class="card__price">$19.99</p>
+          <ul role="list" class="card__bullets flow">
+            <li>Access to all premium Microsoft Tools</li>
+            <li>24/7 Priority support</li>
+            <li>Unlimited Upgrade</li>
+            <li>Exclusive content and early access to new features</li>
+          </ul>
+          <a href="https://payment-form-beige.vercel.app/" class="card__cta cta">Go Ultimate</a>
+        </div>
+      </div>
+  
+      <div class="overlay cards__inner"></div>
+    </div>
+  </main>
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="nav.js">
+</body>
+</html>
